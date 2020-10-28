@@ -26,6 +26,7 @@ import timorleste from 'file-loader!./countries/timorleste.geojson';
 import uk from 'file-loader!./countries/uk.geojson';
 import ukraine from 'file-loader!./countries/ukraine.geojson';
 import usa from 'file-loader!./countries/usa.geojson';
+import vietnam from 'file-loader!./countries/vietnam.geojson';
 import zambia from 'file-loader!./countries/zambia.geojson';
 
 const countries = {
@@ -56,7 +57,8 @@ const countries = {
   uk,
   ukraine,
   usa,
-  zambia,
+  vietnam,
+  zambia
 };
 
 export default countries;
