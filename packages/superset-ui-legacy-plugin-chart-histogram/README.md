@@ -1,7 +1,7 @@
-## @superset-ui/legacy-plugin-chart-histogram
+## @dinovative/legacy-plugin-chart-histogram
 
-[![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-histogram.svg?style=flat-square)](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-histogram.svg?style=flat-square)
-[![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-histogram&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-histogram)
+[![Version](https://img.shields.io/npm/v/@dinovative/legacy-plugin-chart-histogram.svg?style=flat-square)](https://img.shields.io/npm/v/@dinovative/legacy-plugin-chart-histogram.svg?style=flat-square)
+[![David (path)](https://img.shields.io/david/dinovative/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-histogram&style=flat-square)](https://david-dm.org/dinovative/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-histogram)
 
 This plugin provides Histogram for Superset.
 
@@ -10,14 +10,14 @@ This plugin provides Histogram for Superset.
 Configure `key`, which can be any `string`, and register the plugin. This `key` will be used to lookup this chart throughout the app.
 
 ```js
-import HistogramChartPlugin from '@superset-ui/legacy-plugin-chart-histogram';
+import HistogramChartPlugin from '@dinovative/legacy-plugin-chart-histogram';
 
 new HistogramChartPlugin()
   .configure({ key: 'histogram' })
   .register();
 ```
 
-Then use it via `SuperChart`. See [storybook](https://apache-superset.github.io/superset-ui-plugins/?selectedKind=plugin-chart-histogram) for more details.
+Then use it via `SuperChart`. See [storybook](https://dinovative.github.io/superset-ui-plugins/?selectedKind=plugin-chart-histogram) for more details.
 
 ```js
 <SuperChart

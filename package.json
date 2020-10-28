@@ -1,5 +1,5 @@
 {
-  "name": "@superset-ui/plugins-monorepo",
+  "name": "@dinovative/plugins-monorepo",
   "version": "0.0.0-master",
   "description": "Superset UI Plugins",
   "private": true,
@@ -23,10 +23,10 @@
     "prepare-release": "git checkout master && git pull --rebase origin master && lerna bootstrap && yarn install && yarn test",
     "prerelease": "yarn build",
     "pretest": "yarn lint",
-    "release": "lerna publish --yes",
+    "release": "lerna publish from-package --yes",
     "storybook": "cd packages/superset-ui-plugins-demo && yarn storybook"
   },
-  "repository": "https://github.com/apache-superset/superset-ui-plugins.git",
+  "repository": "https://github.com/dinovative/superset-ui-plugins.git",
   "keywords": [
     "apache",
     "superset",

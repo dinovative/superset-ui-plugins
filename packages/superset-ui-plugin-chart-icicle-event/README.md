@@ -1,4 +1,4 @@
-## @superset-ui/plugin-chart-icicle
+## @dinovative/plugin-chart-icicle
 
 ## WIP
 
@@ -11,7 +11,7 @@ This plugin provides Icicle Event Chart for Superset.
 Configure `key`, which can be any `string`, and register the plugin. This `key` will be used to lookup this chart throughout the app.
 
 ```js
-import IcicleEventVizPlugin from '@superset-ui/plugin-chart-icicle-event';
+import IcicleEventVizPlugin from '@dinovative/plugin-chart-icicle-event';
 
 new IcicleEventVizPlugin()
   .configure({ key: 'icicle' })

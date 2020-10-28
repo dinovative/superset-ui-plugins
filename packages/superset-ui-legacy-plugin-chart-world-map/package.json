@@ -1,5 +1,5 @@
 {
-  "name": "@superset-ui/legacy-plugin-chart-world-map",
+  "name": "@dinovative/legacy-plugin-chart-world-map",
   "version": "0.11.15",
   "description": "Superset Legacy Chart - World Map",
   "sideEffects": [
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui-plugins.git"
+    "url": "git+https://github.com/dinovative/superset-ui-plugins.git"
   },
   "keywords": [
     "superset"
@@ -21,9 +21,9 @@
   "author": "Superset",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui-plugins/issues"
+    "url": "https://github.com/dinovative/superset-ui-plugins/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui-plugins#readme",
+  "homepage": "https://github.com/dinovative/superset-ui-plugins#readme",
   "publishConfig": {
     "access": "public"
   },

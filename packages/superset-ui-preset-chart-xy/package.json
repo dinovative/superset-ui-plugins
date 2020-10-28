@@ -1,5 +1,5 @@
 {
-  "name": "@superset-ui/preset-chart-xy",
+  "name": "@dinovative/preset-chart-xy",
   "version": "0.11.15",
   "description": "Superset Chart - XY",
   "sideEffects": [
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui-plugins.git"
+    "url": "git+https://github.com/dinovative/superset-ui-plugins.git"
   },
   "keywords": [
     "superset"
@@ -22,9 +22,9 @@
   "author": "Superset",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui-plugins/issues"
+    "url": "https://github.com/dinovative/superset-ui-plugins/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui-plugins#readme",
+  "homepage": "https://github.com/dinovative/superset-ui-plugins#readme",
   "publishConfig": {
     "access": "public"
   },
