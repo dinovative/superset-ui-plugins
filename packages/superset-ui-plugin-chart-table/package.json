@@ -1,6 +1,6 @@
 {
   "name": "@dinovative/plugin-chart-table",
-  "version": "0.11.15",
+  "version": "0.12.0",
   "description": "Superset Chart - Table",
   "sideEffects": false,
   "main": "lib/index.js",

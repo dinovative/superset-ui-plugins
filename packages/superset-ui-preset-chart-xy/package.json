@@ -1,6 +1,6 @@
 {
   "name": "@dinovative/preset-chart-xy",
-  "version": "0.11.15",
+  "version": "0.12.0",
   "description": "Superset Chart - XY",
   "sideEffects": [
     "*.css"
