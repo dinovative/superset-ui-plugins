@@ -23,7 +23,7 @@
     "prepare-release": "git checkout master && git pull --rebase origin master && lerna bootstrap && yarn install && yarn test",
     "prerelease": "yarn build",
     "pretest": "yarn lint",
-    "release": "lerna publish from-package --yes",
+    "release": "lerna publish --conventional-commits --create-release github --yes",
     "storybook": "cd packages/superset-ui-plugins-demo && yarn storybook"
   },
   "repository": "https://github.com/dinovative/superset-ui-plugins.git",
