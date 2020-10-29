@@ -24,7 +24,6 @@
     "prerelease": "yarn build",
     "pretest": "yarn lint",
     "release": "lerna publish --conventional-commits --create-release github --yes",
-    "postrelease": "lerna run deploy-demo",
     "storybook": "cd packages/superset-ui-plugins-demo && yarn storybook"
   },
   "repository": "https://github.com/dinovative/superset-ui-plugins.git",
