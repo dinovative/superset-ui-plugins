@@ -16,7 +16,8 @@
     "url": "git+https://github.com/dinovative/superset-ui-plugins.git"
   },
   "keywords": [
-    "superset"
+    "superset",
+    "dinovative"
   ],
   "author": "Superset",
   "license": "Apache-2.0",
